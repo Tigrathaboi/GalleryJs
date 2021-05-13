@@ -19,7 +19,7 @@ gallery.forEach((img) => {
   <li class="gallery__item">
     <a
       class="gallery__link"
-      href="${img.original}"
+      href="${img.preview}"
     >
       <img
         class="gallery__image"
