@@ -23,15 +23,15 @@ gallery.forEach((img) => {
     >
       <img
         class="gallery__image"
-        src="${img.preview}"
-        data-source="${img.preview}"
+        src="${img.original}"
+        data-source="${img.original}"
         alt="${img.description}"
       />
     </a>
   
   </li>
   `;
-  images.push(img.preview);
+  images.push(img.original);
   DocRefs.ul.insertAdjacentHTML("beforeend", li);
 });
 
